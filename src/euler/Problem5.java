@@ -9,7 +9,7 @@ public class Problem5 {
             while (num % div == 0 && div < 20) {
                 div++;
                 truecount++;
-                if (truecount==19){
+                if (truecount == 19) {
                     return num;
                 }
             }

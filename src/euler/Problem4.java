@@ -15,7 +15,7 @@ public class Problem4 {
         return largest;
     }
 
-    public static boolean isPalindrome(long number) {
+    private static boolean isPalindrome(long number) {
         return String.valueOf(number).equals(new StringBuffer(String.valueOf(number)).reverse().toString());
     }
 
